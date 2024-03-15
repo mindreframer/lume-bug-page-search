@@ -2,7 +2,7 @@
 lang: "de"
 id: "software-development"
 title: "Software Entwicklung"
-url: "/de/services/software-development"
+url: /de/services/software-development/
 layout: "layouts/base.vto"
 templateEngine: [vto, md]
 ---
