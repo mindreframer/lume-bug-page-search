@@ -1,0 +1,10 @@
+---
+title: Pages
+---
+<h1 class="bg-violet-300">All pages</h1>
+
+<ul>
+  {{ for page of search.pages("") }}
+  <li>{{ page.title }} - {{page.url}} - {{page.layout}}</li>
+  {{ /for }}
+</ul>
